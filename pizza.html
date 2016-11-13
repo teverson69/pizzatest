@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Pizza</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="pizza.js"></script>
+	<link rel="stylesheet" type="text/css" href="pizza.css">
+    </head>
+    <body>
+	<div class="top-header">
+	    Pizza API
+	</div>
+	<div id="pizza-list"><div id="pizza-title">Pizzas</div>
+	<div id="new-pizza-form">
+	    <div class="pizza-title">New Pizza</div>
+	    <form id="pizza-form" name="pizza_form">
+		Name: <input type="text" id="pizza-name" name="pizza_name" /><br/>
+		Description: <input type="text" id="pizza-description" name="pizza_description" /><br/>
+		<input type="button" id="pizza-form-save" value="Save New Pizza" />
+	    </form>
+	</div>
+	</div>
+	<div id="topping-list"><div id="topping-title">Toppings</div>
+	<div id="new-topping-form">
+	    <div class="topping-title">New Topping</div>
+	    <form id="topping-form" name="topping_form">
+		Name: <input type="text" id="topping-name" name="pizza_name" /><br/>
+		<input type="button" id="topping-form-save" value="Save New Topping" />
+	    </form>
+	</div>
+	</div>
+	
+	
+    </body>
+</html>

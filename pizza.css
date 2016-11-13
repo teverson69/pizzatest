@@ -1,0 +1,64 @@
+.top-header {
+    background-image: url("delicious-pizza.jpg");
+    background-color: #cccccc;
+    height: 100px;
+    font:   Ariel;
+    color: white;
+    font-size: 250%;
+}
+
+#pizza-title {
+    background-color: lightblue;
+    height: 50px;
+    font:   Ariel;
+    color: white;
+    font-size: 200%;
+}
+
+#topping-title {
+    background-color: lightseagreen;
+    height: 50px;
+    font:   Ariel;
+    color: white;
+    font-size: 200%;
+}
+
+
+#pizza-list {
+    float: left;
+    width: 50%;
+}
+
+#topping-list {
+    float: right;
+    width: 50%;
+}
+
+
+.pizza {
+    background-color: #cccccc;
+    color: blue;
+    border: 1px solid black;
+}
+
+.topping {
+    background-color: #cccccc;
+    color: purple;
+    border: 1px solid black;
+}
+
+.pizza-topping {
+    background-color: #c1c1c1;
+    color: purple;
+    font-size: small;
+    border: 1px solid white;
+}
+
+.pizza-topping-list {
+    padding: 50px 50px 50px 50px;
+}
+
+.pizza-button {
+    background-color: #ffffff;
+    color: green;
+}
